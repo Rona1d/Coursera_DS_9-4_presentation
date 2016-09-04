@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/206490/9528d344ad69462c9ec83fb4a8a1a2cc
+bundleId: https://api.rpubs.com/api/v1/document/206490/9528d344ad69462c9ec83fb4a8a1a2cc
+url: http://rpubs.com/Rona1d_2/206490
+when: 1473016779.16394
