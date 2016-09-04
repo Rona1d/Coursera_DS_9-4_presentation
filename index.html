@@ -13,7 +13,9 @@
     media="only screen and (max-device-width: 480px)" >
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="libraries/widgets/quiz/css/demo.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
   
   <!-- Grab CDN jQuery, fall back to local if offline -->
@@ -63,8 +65,10 @@
   <article data-timings="">
     <ul>
 <li>Some people outside of Europe think that Europe is a country. It&#39;s not.</li>
-<li>Europe is a continent that consists of approximately 50 individual countries and independent states</li>
-<li>The following slides introduce a tool that helps you learn about Europe&#39;s individual countries</li>
+<li><p>Europe is a continent that consists of approximately 50 individual countries and independent states</p>
+
+<p><img src="./assets/img/UM.png" alt="APicture"> </p></li>
+<li><p>The following slides introduce a tool that helps you learn about Europe&#39;s individual countries</p></li>
 </ul>
 
   </article>
@@ -77,9 +81,13 @@
   </hgroup>
   <article data-timings="">
     <ul>
-<li>By choosing a country from </li>
-<li>plaatje of iets anders</li>
+<li>The app is available through <a href="https://rona1d.shinyapps.io/Assignment9-4/">this link</a></li>
+<li>Start by choosing a country from the list of countries</li>
+<li>Upon selecting, the country will be highlighted on the map with some additional info</li>
+<li>You can repeat this untill you have familiarised yourself with this awesome continent :)</li>
 </ul>
+
+<p><img src="./assets/img/UM2.png" alt="APicture2"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -90,13 +98,34 @@
     <h2>Now it&#39;s your turn!</h2>
   </hgroup>
   <article data-timings="">
-    <ul>
-<li>Look for</li>
-<li>What is its capital</li>
-<li>Can you figure out what this country is??</li>
-<li>Misschien zelf quiz ingooien???</li>
+    
+<div class="quiz quiz-single well ">
+  <ul>
+<li>Look for &quot;Slovenia&quot; in the list of countries</li>
+<li>What is its capital?</li>
 </ul>
 
+<ol>
+<li>Bratislava</li>
+<li><em>Ljubljana</em></li>
+<li>Saint Helier</li>
+<li>Tallinn</li>
+</ol>
+
+  <button class="quiz-submit btn btn-primary">Submit</button>
+  <button class="quiz-toggle-hint btn btn-info">Show Hint</button>
+  <button class="quiz-show-answer btn btn-success">Show Answer</button>
+  <button class="quiz-clear btn btn-danger">Clear</button>
+  
+  <div class="quiz-hint">
+  <p>Look somewhere below in the list</p>
+
+</div>
+<div class="quiz-explanation">
+  <p>Yes! It actually is Ljubljana! Can you pronounce it&#39;s name? ;)</p>
+
+</div>
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -138,6 +167,18 @@
   <![endif]-->
 </body>
   <!-- Load Javascripts for Widgets -->
+  <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+<script src="libraries/widgets/quiz/js/jquery.quiz.js"></script>
+<script src="libraries/widgets/quiz/js/mustache.min.js"></script>
+<script src="libraries/widgets/quiz/js/quiz-app.js"></script>
+
+  <script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
   
   <!-- LOAD HIGHLIGHTER JS FILES -->
   <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
