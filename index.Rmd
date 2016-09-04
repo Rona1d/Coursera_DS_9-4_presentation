@@ -43,8 +43,8 @@ output:
 * Upon selecting, the country will be highlighted on the map with some additional info
 * You can repeat this untill you have familiarised yourself with this awesome continent :)
 
- ![APicture](./assets/img/UM.png) 
- ![APicture2](./assets/img/UM3.png) 
+ ![APicture](./assets/img/UM2.png) 
+ 
 
 --- &radio
 
