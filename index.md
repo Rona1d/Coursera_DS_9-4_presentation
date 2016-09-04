@@ -44,7 +44,7 @@ output:
 * You can repeat this untill you have familiarised yourself with this awesome continent :)
 
 
-![APicture2](./assets/img/UM3.png) 
+ ![APicture2](./assets/img/UM3.png) 
 
 --- &radio
 
