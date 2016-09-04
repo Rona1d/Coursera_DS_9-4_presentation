@@ -29,7 +29,7 @@ output:
 * Europe is a continent that consists of approximately 50 individual countries and independent states
 
 
- ![APicture](./assets/img/UM.png) 
+ ![Picture1](./assets/img/UM.png) 
 * The following slides introduce a tool that helps you learn about Europe's individual countries
 
 
@@ -43,7 +43,7 @@ output:
 * Upon selecting, the country will be highlighted on the map with some additional info
 * You can repeat this untill you have familiarised yourself with this awesome continent :)
 
- ![APicture](./assets/img/UM2.png) 
+ ![Picture2](./assets/img/UM3.png) 
  
 
 --- &radio
